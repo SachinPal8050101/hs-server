@@ -2,9 +2,9 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.hsapp",
+      "package_name": "com.selfcarecatalyst.healthstorylines",
       "sha256_cert_fingerprints":
-      ["FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C"]
+      ["5C:DB:C3:6F:38:12:34:4C:F1:45:98:F9:4C:29:89:1C:49:2C:5B:00:23:B0:FE:99:96:F5:3A:AE:AB:BE:A0:E7"]
     }
 }]
   
