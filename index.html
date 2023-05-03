@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>App Availability Test</title>
+  <script>
+    function isMobile() {
+      return /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    }
+
+    function openApp() {
+      const appUrl = 'healthstorylines://';
+      const androidPlayStoreUrl = 'https://play.google.com/store/apps/details?id=com.selfcarecatalyst.healthstorylines';
+      const iosAppStoreUrl = 'https://apps.apple.com/us/app/health-storylines/id935411489';
+
+      if (isMobile()) {
+        const hiddenLink = document.createElement('a');
+        hiddenLink.href = appUrl;
+        hiddenLink.style.display = 'none';
+        document.body.appendChild(hiddenLink);
+
+        const fallbackToStore = setTimeout(() => {
+          if (navigator.userAgent.match(/iPhone|iPad|iPod/i)) {
+            window.location = iosAppStoreUrl;
+          } else if (navigator.userAgent.match(/Android/i)) {
+            window.location = androidPlayStoreUrl;
+          }
+        }, 2000);
+
+        hiddenLink.click();
+
+        window.addEventListener('visibilitychange', () => {
+          if (document.visibilityState === 'visible') {
+            clearTimeout(fallbackToStore);
+          }
+        });
+      } else {
+        window.location.href= 'https://www.healthstorylines.com'
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', openApp);
+  </script>
+</head>
+<body>
+  <!-- <h1>App Availability Test</h1>
+  <button onclick="openApp()">Open App or Go to Store</button> -->
+</body>
+</html>

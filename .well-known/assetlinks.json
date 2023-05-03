@@ -1,0 +1,83 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.selfcarecatalyst.healthstorylines",
+        "sha256_cert_fingerprints": [
+          "F0:8A:83:4F:DD:FE:1A:95:65:1D:34:00:A0:5D:A9:D9:1C:E4:B6:E0:5D:20:66:38:7D:EC:FA:68:73:36:BA:EE"
+        ]
+      }
+    },
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.selfcarecatalyst.healthstorylines",
+        "sha256_cert_fingerprints": [
+          "5C:DB:C3:6F:38:12:34:4C:F1:45:98:F9:4C:29:89:1C:49:2C:5B:00:23:B0:FE:99:96:F5:3A:AE:AB:BE:A0:E7"
+        ]
+      }
+    },
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.selfcarecatalyst.healthstorylines.netcancer",
+        "sha256_cert_fingerprints": [
+          "5C:DB:C3:6F:38:12:34:4C:F1:45:98:F9:4C:29:89:1C:49:2C:5B:00:23:B0:FE:99:96:F5:3A:AE:AB:BE:A0:E7"
+        ]
+      }
+    },
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.selfcarecatalyst.healthstorylines.netcancer",
+        "sha256_cert_fingerprints": [
+          "5C:DB:C3:6F:38:12:34:4C:F1:45:98:F9:4C:29:89:1C:49:2C:5B:00:23:B0:FE:99:96:F5:3A:AE:AB:BE:A0:E7"
+        ]
+      }
+    },
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.healthstorylines.prostate",
+        "sha256_cert_fingerprints": [
+          "5C:DB:C3:6F:38:12:34:4C:F1:45:98:F9:4C:29:89:1C:49:2C:5B:00:23:B0:FE:99:96:F5:3A:AE:AB:BE:A0:E7"
+        ]
+      }
+    },
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.healthstorylines.prostate",
+        "sha256_cert_fingerprints": [
+          "5C:DB:C3:6F:38:12:34:4C:F1:45:98:F9:4C:29:89:1C:49:2C:5B:00:23:B0:FE:99:96:F5:3A:AE:AB:BE:A0:E7"
+        ]
+      }
+    },
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.selfcarecatalyst.healthstorylines.adda",
+        "sha256_cert_fingerprints": [
+          "5C:DB:C3:6F:38:12:34:4C:F1:45:98:F9:4C:29:89:1C:49:2C:5B:00:23:B0:FE:99:96:F5:3A:AE:AB:BE:A0:E7"
+        ]
+      }
+    },
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.selfcarecatalyst.healthstorylines.adda",
+        "sha256_cert_fingerprints": [
+          "5C:DB:C3:6F:38:12:34:4C:F1:45:98:F9:4C:29:89:1C:49:2C:5B:00:23:B0:FE:99:96:F5:3A:AE:AB:BE:A0:E7"
+        ]
+      }
+    }
+  ]
+  
